@@ -11,6 +11,7 @@ on:
     paths:
       - '.github/workflows/TwoWaySample.yaml'
       - 'TwoWaySample/**'
+  workflow_dispatch:
 
 env:
   SAMPLE_PATH: TwoWaySample
